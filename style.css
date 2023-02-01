@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+  }
+  
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+  }
+  
+  .form {
+    display: none;
+  }
+  
+  .username-display {
+    display: none;
+  }
+  
+  .dice-container {
+    display: none;
+  }
+  
+  .img {
+    width: 50%;
+    cursor: pointer;
+  }
+  
+  .dice-img {
+    width: 50%;
+  }
+
+  #form1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    display: none;
+  }
+  
+  
